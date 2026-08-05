@@ -5,11 +5,14 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 main {
   height: 100vh;
   background-color: aqua;
 
-  /* flex options */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +22,7 @@ main {
 
 h1#page_title {
   color: white;
-  font-size: 3rem;
+  font-size: 4em;
   text-shadow: 1px 1px 3px black;
   letter-spacing: 0.2rem;
 }
@@ -71,6 +74,7 @@ div.contact_info_container {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  font-size: 1.8rem;
 }
 
 h1.contact_name {
@@ -79,7 +83,6 @@ h1.contact_name {
   font-weight: normal;
 }
 p.contact_email {
-  font-size: 1.2rem;
   color: rgb(153, 153, 153, 100%);
 }
 
